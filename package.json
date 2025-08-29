@@ -1,0 +1,36 @@
+{
+  "name": "2pals",
+  "version": "1.0.0",
+  "description": "# 2Pals",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prontoexists/2Pals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prontoexists/2Pals/issues"
+  },
+  "homepage": "https://github.com/prontoexists/2Pals#readme",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "aws-cdk-lib": "^2.204.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.15.5"
+  }
+}
